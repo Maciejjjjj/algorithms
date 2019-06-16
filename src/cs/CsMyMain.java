@@ -38,7 +38,7 @@ public class CsMyMain {
         System.out.println("Zadajesz przeciwnikowi " + (int) obrazenia + " pkt obrażeń");
         System.out.println("Zarabiasz " + obrazenia * MNOŻNIK_KASA_ZA_ŻYCIE + "$");
 
-        if (ŻYCIE_PRZECIWNIKA <= obrazenia){
+        if (ŻYCIE_PRZECIWNIKA <= obrazenia) {
             System.out.println("Zabijasz przeciwnika w rundzie " + runda + "!");
             System.exit(0);
         }
@@ -46,8 +46,8 @@ public class CsMyMain {
         System.out.println("Przeciwnik żyje, grasz dalej? [tak]/[nie]");
         String odpowiedz = scanner.nextLine();
 
-        if (odpowiedz.equals("tak")){
-            nowaRunda(nowaKasa + obrazenia * MNOŻNIK_KASA_ZA_ŻYCIE, runda +1);
+        if (odpowiedz.equals("tak")) {
+            nowaRunda(nowaKasa + obrazenia * MNOŻNIK_KASA_ZA_ŻYCIE, runda + 1);
         } else {
             System.out.println("Kończysz grę na rundzie " + runda + ".");
         }

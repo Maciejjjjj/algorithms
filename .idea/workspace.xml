@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e02bc94-3d11-43c6-a6d8-c388698a3ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cs/CsMyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/towerOfHanoi/TowerOfHanoiMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/ComparatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/SignAmountComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swingTest/SimpleSwingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swingTest/SwingTestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs/CsMyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/CsMyMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,37 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cs/CsMain.java">
+        <entry file="file://$PROJECT_DIR$/src/swingTest/SwingTestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="105" column="15" lean-forward="true" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cs/Dystans.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cs/Bron.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="231">
+              <caret line="11" column="68" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cs/CsMyMain.java">
+        <entry file="file://$PROJECT_DIR$/src/swingTest/SimpleSwingMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="71" column="65" lean-forward="true" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
+            <state relative-caret-position="479">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -113,6 +98,11 @@
         <option value="$PROJECT_DIR$/src/szyfry/MainSzyfry.java" />
         <option value="$PROJECT_DIR$/src/towerOfHanoi/TowerOfHanoiMain.java" />
         <option value="$PROJECT_DIR$/src/cs/CsMyMain.java" />
+        <option value="$PROJECT_DIR$/src/comparator/ComparatorMain.java" />
+        <option value="$PROJECT_DIR$/src/comparator/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/comparator/SignAmountComparator.java" />
+        <option value="$PROJECT_DIR$/src/swingTest/SwingTestMain.java" />
+        <option value="$PROJECT_DIR$/src/swingTest/SimpleSwingMain.java" />
       </list>
     </option>
   </component>
@@ -127,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,23 +133,18 @@
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="towerOfHanoi" type="462c0819:PsiDirectoryNode" />
+              <item name="swingTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560596915633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560607187996" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jav21wro_p1" />
     <property name="project.structure.last.edited" value="Project" />
@@ -188,7 +172,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CsMyMain">
+  <component name="RunManager" selected="Application.SimpleSwingMain">
+    <configuration name="ComparatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparator.ComparatorMain" />
+      <module name="Algorytmy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsMyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cs.CsMyMain" />
       <module name="Algorytmy" />
@@ -202,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LotniskoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lotnisko.LotniskoMain" />
+    <configuration name="SimpleSwingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swingTest.SimpleSwingMain" />
       <module name="Algorytmy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lotnisko.*" />
+          <option name="PATTERN" value="swingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,25 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainOdległość" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odleglosc.MainOdległość" />
+    <configuration name="SwingTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swingTest.SwingTestMain" />
       <module name="Algorytmy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="odleglosc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainSamoloty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="samoloty.MainSamoloty" />
-      <module name="Algorytmy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="samoloty.*" />
+          <option name="PATTERN" value="swingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleSwingMain" />
+        <item itemvalue="Application.SwingTestMain" />
+        <item itemvalue="Application.ComparatorMain" />
         <item itemvalue="Application.CsMyMain" />
         <item itemvalue="Application.TowerOfHanoiMain" />
-        <item itemvalue="Application.MainOdległość" />
-        <item itemvalue="Application.LotniskoMain" />
-        <item itemvalue="Application.MainSamoloty" />
       </list>
     </recent_temporary>
   </component>
@@ -287,8 +271,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23200859" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23523094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,10 +288,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.32982457" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053704" side_tool="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32982457" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32982457" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -531,8 +516,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cs/CsMyMain.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparator/ComparatorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparator/SignAmountComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="71" column="65" lean-forward="true" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swingTest/SwingTestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swingTest/SimpleSwingMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
