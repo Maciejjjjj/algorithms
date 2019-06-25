@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class AutomatMain {
-    private static HashMap<Produkty, Double> listaProduktow;
+    private static HashMap<Items, Double> listaProduktow;
     private static Scanner scanner;
 
     public static void main(String[] args) {
@@ -16,19 +16,19 @@ public class AutomatMain {
     private static void init() {
         listaProduktow = new HashMap<>();
         scanner = new Scanner(System.in);
-        listaProduktow.put(Produkty.BATON, 2.20);
-        listaProduktow.put(Produkty.CHIPSY, 3.00);
-        listaProduktow.put(Produkty.PALUSZKI, 1.80);
-        listaProduktow.put(Produkty.WODA, 1.75);
-        listaProduktow.put(Produkty.COLA, 3.50);
-        listaProduktow.put(Produkty.SPRITE, 3.50);
-        listaProduktow.put(Produkty.FANTA, 3.50);
-        listaProduktow.put(Produkty.PEPSI, 3.20);
-        listaProduktow.put(Produkty.SEVEN_UP, 3.20);
-        listaProduktow.put(Produkty.MIRINDA, 3.20);
+        listaProduktow.put(Items.BATON, 2.20);
+        listaProduktow.put(Items.CHIPSY, 3.00);
+        listaProduktow.put(Items.PALUSZKI, 1.80);
+        listaProduktow.put(Items.WODA, 1.75);
+        listaProduktow.put(Items.COLA, 3.50);
+        listaProduktow.put(Items.SPRITE, 3.50);
+        listaProduktow.put(Items.FANTA, 3.50);
+        listaProduktow.put(Items.PEPSI, 3.20);
+        listaProduktow.put(Items.SEVEN_UP, 3.20);
+        listaProduktow.put(Items.MIRINDA, 3.20);
     }
 
-    private static void dzialaj(HashMap<Produkty, Double> produkty) {
+    private static void dzialaj(HashMap<Items, Double> produkty) {
         Double kasa = 0.0;
         System.out.println("Witaj w automacie vendingowym!");
         System.out.println("Dostępne w ofercie są:");
@@ -36,7 +36,7 @@ public class AutomatMain {
         wrzucMonete(kasa, produkty);
     }
 
-    private static void wrzucMonete(Double kasa, HashMap<Produkty, Double> produkty) {
+    private static void wrzucMonete(Double kasa, HashMap<Items, Double> produkty) {
         double nowaKasa;
         boolean dalej;
         System.out.println("Monety 1, 2 i 5 PLN, co wrzucasz?");
@@ -51,11 +51,11 @@ public class AutomatMain {
         }
     }
 
-    private static void wybierzProdukt(double nowaKasa, HashMap<Produkty, Double> produkty) {
+    private static void wybierzProdukt(double nowaKasa, HashMap<Items, Double> produkty) {
         String odpowiedz;
         Double kasaPoSprzedazy;
         Double wartoscProduktu;
-        Produkty produkt;
+        Items produkt;
         System.out.println("Masz " + nowaKasa + " PLN");
         System.out.println("To na co się zdecydujesz?");
         System.out.println(produkty);
@@ -69,37 +69,37 @@ public class AutomatMain {
         dzialaj(produkty);
     }
 
-    private static Produkty odzyskajProduktZListy(String odpowiedz) {
+    private static Items odzyskajProduktZListy(String odpowiedz) {
         switch (odpowiedz) {
             case "BATON": {
-                return Produkty.BATON;
+                return Items.BATON;
             }
             case "WODA": {
-                return Produkty.WODA;
+                return Items.WODA;
             }
             case "CHIPSY": {
-                return Produkty.CHIPSY;
+                return Items.CHIPSY;
             }
             case "PALUSZKI": {
-                return Produkty.PALUSZKI;
+                return Items.PALUSZKI;
             }
             case "COLA": {
-                return Produkty.COLA;
+                return Items.COLA;
             }
             case "FANTA": {
-                return Produkty.FANTA;
+                return Items.FANTA;
             }
             case "SPRITE": {
-                return Produkty.SPRITE;
+                return Items.SPRITE;
             }
             case "PEPSI": {
-                return Produkty.PEPSI;
+                return Items.PEPSI;
             }
             case "MIRINDA": {
-                return Produkty.MIRINDA;
+                return Items.MIRINDA;
             }
             default: {
-                return Produkty.SEVEN_UP;
+                return Items.SEVEN_UP;
             }
         }
     }

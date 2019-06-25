@@ -22,16 +22,16 @@ public class SimpleSwingMain {
             frame.setMinimumSize(new Dimension(100, 50));
             JButton button = new JButton("Go!");
             frame.add(button);
-                    button.addActionListener(new ActionListener() {
-                        @Override
-                        public void actionPerformed(ActionEvent e) {
-                            JCheckBox checkBox = new JCheckBox();
-                            frame.add(checkBox);
-                            frame.pack();
-                            checkBox.setVisible(true);
-                            frame.setVisible(true);
-                        }
-                    });
+            button.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    JCheckBox checkBox = new JCheckBox();
+                    frame.add(checkBox);
+                    frame.pack();
+                    checkBox.setVisible(true);
+                    frame.setVisible(true);
+                }
+            });
 
             frame.setVisible(true);
 

@@ -1,6 +1,6 @@
 package automat;
 
-public enum Produkty {
+public enum Items {
 
     BATON,
     WODA,
